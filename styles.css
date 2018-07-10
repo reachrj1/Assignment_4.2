@@ -1,0 +1,27 @@
+/* The following will set the border bottom for all the elements*/
+
+*
+{
+	border-bottom: solid 1px;
+}
+
+/* The following will NOT set the border bottom for html element to offset the above universal selector*/
+html {
+    border: 0;
+}
+
+/* The following will NOT set the border bottom for header element to offset the above universal selector*/
+
+header {
+    border: 0;
+} 
+
+/* The following will NOT set the border bottom for body element to offset the above universal selector*/
+body {
+    border: 0;
+} 
+
+/* The following will NOT set the border bottom for footer element to offset the above universal selector*/
+footer{
+    border: 0;
+} 
